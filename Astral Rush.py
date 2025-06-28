@@ -425,7 +425,7 @@ while True:
         pygame.draw.rect(screen, (0, 200, 0), (slider_x, slider_y, filled_width, slider_height), border_radius=5)
 
         # Volume percentage text
-        volume_text = symbols_font.render(f"{int(volume*100)}%", True, (255, 255, 255))
+        volume_text = symbols_font.render(f"{round(volume*100)}%", True, (255, 255, 255))
         screen.blit(volume_text, (screen_width // 2 - volume_text.get_width() // 2, slider_y - 40))
 
         button_back_settings.draw(screen)
