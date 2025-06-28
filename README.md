@@ -1,5 +1,7 @@
 # 🚀 Astral Rush
 
+![logo](assets/images/logo.png)
+
 **Astral Rush** is a fullscreen 2D arcade-style space shooter game built using Python and Pygame. Featuring fast-paced gameplay, dynamic menus, two-player support, and a retro aesthetic, it's an exciting journey through the stars!
 
 
